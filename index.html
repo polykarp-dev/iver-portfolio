@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iver's Portfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="site-nav__inner">
+    <span class="txt-nav" style="color:var(--text);">Iver's Portfolio</span>
+    <ul class="site-nav__links">
+      <li><a class="txt-nav" href="#about">About</a></li>
+      <li><a class="txt-nav" href="#skills">Skills</a></li>
+      <li><a class="txt-nav" href="#graphic-design">Portfolio</a></li>  
+      <li><a class="txt-nav" href="#other-skills">More</a></li>
+    </ul>
+    <button class="theme-toggle txt-btn" id="themeToggle" type="button" aria-label="Toggle light and dark mode">
+      <i class="bi bi-moon-stars" id="themeIcon"></i> 
+    </button>
+  </div>
+</nav>
+
+<main class="page-shell">
+  <section id="about">
+    <div class="txt-index">01 / About</div>
+    <div class="about-grid" style="margin-top:0.75rem;">
+
+      <div>
+        <h1 class="txt-display">John Iverson P. Policarpio</h1>
+        <p class="txt-email">
+          iversonpolicarpio@gmail.com
+        </p>
+        <p class="txt-body" style="margin-top:0.9rem;">
+          I am a BSIT graduate based in the Philippines, building custom systems, creating multimedia
+          and implementing software solutions. I like visualizing an end goal and making the process happen.
+        </p>
+
+        <div class="about-links">
+          <a class="social-pill txt-btn" href="https://www.facebook.com/johniverson.policarpio.7/" target="_blank" rel="noopener">
+            <i class="bi bi-facebook"></i> Facebook
+          </a>
+          <a class="social-pill txt-btn" href="https://www.linkedin.com/in/john-iverson-policarpio-628451317/" target="_blank" rel="noopener">
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="carousel-min" id="about-photos" data-carousel data-loop="true">
+        <div class="carousel-min__viewport">
+          <div class="carousel-min__track">
+
+            <div class="carousel-min__slide photo-slide">
+              <div class="photo-slide__frame">
+                <img src="media/me/1.jpg" alt="Photo 1">
+              </div>
+            </div>
+
+            <div class="carousel-min__slide photo-slide">
+              <div class="photo-slide__frame">
+                <img src="media/me/2.jpg" alt="Photo 2">
+              </div>
+            </div>
+
+            <div class="carousel-min__slide photo-slide">
+              <div class="photo-slide__frame">
+                <img src="media/me/3.jpg" alt="Photo 3">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-min__controls">
+          <button class="carousel-min__arrow" data-action="prev" aria-label="Previous photo"><i class="bi bi-chevron-left"></i></button>
+          <div class="carousel-min__dots"></div>
+          <button class="carousel-min__arrow" data-action="next" aria-label="Next photo"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head">
+      <div class="txt-index">02 / Skills &amp; Experience</div>
+      <div class="section-head__rule"></div>
+    </div>
+
+    <h2 class="txt-h1">Core skills</h2> 
+    <ul class="tag-list" style="margin-top:0.9rem;">
+      <li class="tag-chip txt-tag"><i class="devicon-premierepro-plain colored"></i> Premiere Pro</li>
+      <li class="tag-chip txt-tag">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/capcut-icon.svg" alt="CapCut" class="skill-icon"> CapCut
+      </li>
+      <li class="tag-chip txt-tag">
+        <img src="https://api.iconify.design/logos:adobe-indesign.svg" alt="InDesign" class="skill-icon"> InDesign
+      </li>
+      <li class="tag-chip txt-tag"><i class="devicon-photoshop-plain colored"></i> Photoshop</li>
+      <li class="tag-chip txt-tag"><i class="devicon-illustrator-plain colored"></i> Illustrator</li> 
+      <li class="tag-chip txt-tag"><i class="devicon-csharp-plain colored"></i> C#</li>
+      <li class="tag-chip txt-tag"><i class="devicon-dot-net-plain colored"></i> ASP.NET</li>
+      <li class="tag-chip txt-tag"><i class="devicon-php-plain colored"></i> PHP</li>
+      <li class="tag-chip txt-tag"><i class="devicon-mysql-plain colored"></i> MySQL</li>
+      <li class="tag-chip txt-tag"><i class="devicon-html5-plain colored"></i> HTML/CSS</li>
+      <li class="tag-chip txt-tag"><i class="devicon-javascript-plain colored"></i> Javascript</li>
+      <li class="tag-chip txt-tag"><i class="devicon-blazor-original colored"></i> Blazor</li>
+      <li class="tag-chip txt-tag"><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
+      <li class="tag-chip txt-tag"><i class="bi bi-headset"></i> IT Support</li>
+    </ul>
+
+    <h2 class="txt-h1" style="margin-top:2.25rem;">Work experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-item__meta">
+          <span class="txt-h2">IT Support and Development Intern</span>
+          <span class="txt-body-sm">— Department of Information and Communications Technology · 2025</span>
+        </div>
+        <p class="txt-body">> Developed a custom document management web application for local barangay units that improved record-keeping 
+                            organization and sped up document retrieval for community officials.</p>
+        <p class="txt-body">> Conducted a multi-day public awareness and onboarding campaign for the eGovPH mobile application, assisting
+                            dozens of citizens and government employees in adopting digitized government services</p>
+        <p class="txt-body">> Provided basic technical Support by diagnosing and resolving hardware and software issues for local citizens,
+                            restoring access to essential Digital tools and services.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-item__meta">
+          <span class="txt-h2">Video Editor and Graphicer</span>
+          <span class="txt-body-sm">— Freelance WFH · 2021–2023</span>
+        </div>
+        <p class="txt-body">> Edited short-form video content for social media platforms, applying pacing, hooks, and visual effects to increase
+                            viewer engagement and retention.</p>
+        <p class="txt-body">> Produced graphic design deliverables including custom logos and Branding materials, ensuring visual assets
+                            aligned with each clientʼs Brand identity and guidelines.</p>
+        <p class="txt-body">> Delivered finalized video assets and graphic materials consistently on time and in accordance with detailed client
+                            briefs and Brand requirements.</p>
+        <p class="txt-body">> Collaborated directly with freelance clients and Social Media Managers to align video concepts, messaging, and
+                            visual style with broader campaign goals and Brand positioning.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-item__meta">
+          <span class="txt-h2">Lead Developer</span>
+          <span class="txt-body-sm">— College Capstone Project Team</span>
+        </div>
+        <p class="txt-body">> Led development of the Insurance Document and Client Management System <strong>IDCMS</strong> as a native Windows
+                            application using C# and MongoDB to manage client and document data.</p>
+        <p class="txt-body">> Built custom document templates and automated data integration features to read, write, and process Excel
+                            spreadsheets, reducing manual data handling and improving consistency.</p>
+      </div>
+
+    </div>
+
+    </br>
+    <h2 class="txt-h1">Languages</h2>
+    <ul class="tag-list" style="margin-top:0.9rem;">
+      <li class="tag-chip txt-tag">
+        <img src="https://hatscripts.github.io/circle-flags/flags/us.svg" alt="US Flag" class="skill-icon"> English
+      </li>
+      <li class="tag-chip txt-tag">
+        <img src="https://hatscripts.github.io/circle-flags/flags/ph.svg" alt="Philippines Flag" class="skill-icon"> Filipino
+      </li>
+    </ul>
+
+
+  </section>
+
+  <section id="graphic-design">
+    <div class="section-head">
+      <div class="txt-index">03 / Portfolio - Graphic Design</div>
+      <div class="section-head__rule"></div>
+    </div>
+    <h2 class="txt-h1">Graphic design</h2>
+    <p class="txt-body-sm" style="margin-top:0.4rem;">A look through my graphic design and branding work.</p>
+
+    <div class="pdf-viewer-min" style="margin-top:1.25rem; border:1px solid var(--border, rgba(128,128,128,0.25)); border-radius:10px; overflow:hidden;">
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:0.6rem 0.9rem; border-bottom:1px solid var(--border, rgba(128,128,128,0.25));">
+        <span class="txt-body-sm"><i class="bi bi-filetype-pdf"></i> john_iverson_policarpio_portfolio.pdf</span>
+        <a class="txt-body-sm" href="john_iverson_policarpio_portfolio.pdf" target="_blank" rel="noopener">
+          <i class="bi bi-box-arrow-up-right"></i> Open
+        </a>
+      </div>
+      <iframe
+        src="john_iverson_policarpio_portfolio.pdf"
+        title="Graphic Design Portfolio PDF"
+        style="width:100%; height:80vh; border:0; display:block;">
+      </iframe>
+    </div>
+  </section>
+
+<section id="media">
+    <div class="section-head">
+      <div class="txt-index">04 / Portfolio - Video</div>
+      <div class="section-head__rule"></div>
+    </div>
+    <h2 class="txt-h1">Video &amp; social embeds</h2>
+    <p class="txt-body-sm" style="margin-top:0.4rem;">
+      Edited with Premiere Pro, CapCut, and After Effects.
+    </p>
+
+    <ul class="video-list" style="margin-top:1.25rem;">
+      <li>
+        <a class="video-link" href="https://youtube.com/shorts/1fxiljH_RrM" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Reel Ad</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+      <li>
+        <a class="video-link" href="https://youtube.com/shorts/G0prPEIqpGU" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Reel Edit 1</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+      <li>
+        <a class="video-link" href="https://youtube.com/shorts/oWxN9WxHgSg" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Reel Edit 2</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+      <li>
+        <a class="video-link" href="https://youtu.be/mpIzK56srIU" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Lyric Video</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+      <li>
+        <a class="video-link" href="https://youtu.be/NG3meyjqQ7c" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Short Animation</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+      <li>
+        <a class="video-link" href="https://youtu.be/ucnr-NeINb8" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Streamer Overlay</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+      <li>
+        <a class="video-link" href="https://youtu.be/4ae1B15oxks" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Video Essay Test</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+      <li>
+        <a class="video-link" href="https://youtu.be/hmQKTRQRVPI" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Informational Video</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+      <li>
+        <a class="video-link" href="https://youtu.be/pfYWkzGpu04" target="_blank" rel="noopener">
+          <i class="bi bi-youtube"></i>
+          <span class="txt-body">Gameplay Montage</span>
+          <i class="bi bi-box-arrow-up-right video-link__ext"></i>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+
+  <section id="websites">
+  <div class="section-head">
+    <div class="txt-index">05 / Ongoing website</div>
+    <div class="section-head__rule"></div>
+  </div>
+  <h2 class="txt-h1">Work in progress</h2>
+  <p class="txt-body-sm" style="margin-top:0.4rem;">An online dice roller for Tabletop RPGs like Dungeons & Dragons or Pathfinder made in ASP.NET.</p>
+
+  <div class="carousel-min" data-carousel style="margin-top:1.25rem;">
+    <div class="carousel-min__viewport">
+      <div class="carousel-min__track">
+
+        <div class="carousel-min__slide">
+          <div class="carousel-min__placeholder">
+            <img src="media/dash.png" alt="Screenshot 1 — homepage">
+            <span class="carousel-min__caption txt-body-sm">Dashboard</span>
+          </div>
+        </div>
+
+        <div class="carousel-min__slide">
+          <div class="carousel-min__placeholder">
+            <img src="media/room.png" alt="Screenshot 2 — inner page">
+            <span class="carousel-min__caption txt-body-sm">Room</span>
+          </div>
+        </div>
+
+        <div class="carousel-min__slide">
+          <div class="carousel-min__placeholder">
+            <img src="media/pip.png" alt="Screenshot 3 — mobile view">
+            <span class="carousel-min__caption txt-body-sm">Picture-in-Picture</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="carousel-min__controls">
+      <button class="carousel-min__arrow" data-action="prev" aria-label="Previous screenshot"><i class="bi bi-chevron-left"></i></button>
+      <div class="carousel-min__dots"></div>
+      <button class="carousel-min__arrow" data-action="next" aria-label="Next screenshot"><i class="bi bi-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+  <section id="other-skills">
+    <div class="section-head">
+      <div class="txt-index">06 / Other skills</div>
+      <div class="section-head__rule"></div>
+    </div>
+    <h2 class="txt-h1">Also comfortable with</h2>
+
+    <div class="skills-grid">
+      <div class="skills-grid__item"><i class="bi bi-check2"></i><span class="txt-body-sm">MS Office</span></div>
+      <div class="skills-grid__item"><i class="bi bi-check2"></i><span class="txt-body-sm">Photography</span></div>
+      <div class="skills-grid__item"><i class="bi bi-check2"></i><span class="txt-body-sm">Videography</span></div>
+      <div class="skills-grid__item"><i class="bi bi-check2"></i><span class="txt-body-sm">Digital Art</span></div> 
+      <div class="skills-grid__item"><i class="bi bi-check2"></i><span class="txt-body-sm">Animation</span></div> 
+    </div>
+  </section>
+
+  <footer style="padding:2.5rem 0;">
+    <p class="txt-body-sm">Iver's Portfolio © <span id="year"></span></p>
+  </footer>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
